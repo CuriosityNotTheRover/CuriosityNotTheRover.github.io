@@ -1,0 +1,15 @@
+/* Palette of colors */
+:root {
+  --dark-green: #283618;
+  --light-green: #606C38;
+  --cornsilk-white: #FEFAE0;
+  --white: #ffffff;
+  --light-brown: #DDA15E;
+  --dark-brown: #BC6C25;
+  --black: #000000;
+  --light-grey: #d5d9d980;/*#E7E9EB;*/
+  --dark-grey: 	#151515;
+
+  --bg-color: #f6f6f6;
+  --bg-dark: #080705;
+}
