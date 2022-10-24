@@ -126,26 +126,16 @@ h4 {
 
 
 /* Responsive layout */
-@media screen and (max-width: 400px) {
-  .main{
-    width: 100%;
-  }
-
+@media screen and (max-width: 500px) {
   .card{
-	grid-column-start: 2;
-  	grid-column-end: 6;
+	grid-column-start: 1;
+  	grid-column-end: 7;
   }
   
 }
 
 @media screen and (max-width: 800px) {
-  .main{
-    width: 80%;
-  }
-
   .card{
-	background-color: red;
-
 	grid-column-start: 2;
   	grid-column-end: 6;
   }
