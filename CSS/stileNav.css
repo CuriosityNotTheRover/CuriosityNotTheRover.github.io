@@ -1,5 +1,7 @@
 @import "colorCoding.css";
 
+
+
 .navbar{
 	display: flex;
 	flex-direction: row;
@@ -20,4 +22,13 @@
 .navbar a {
   color: var(--dark-brown);
   text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.navbar{
+		grid-column-start: 1;
+		grid-column-end: 7;
+	}
 }

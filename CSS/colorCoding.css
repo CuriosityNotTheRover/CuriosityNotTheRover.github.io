@@ -13,3 +13,20 @@
   --bg-color: #f6f6f6;
   --bg-dark: #080705;
 }
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --dark-green: #606C38;
+    --light-green: #283618;
+    --cornsilk-white: #080705;
+    --white: #000000;
+    --light-brown: #BC6C25;
+    --dark-brown: #DDA15E;
+    --black: #ffffff;
+    --light-grey: #151515;/*#E7E9EB;*/
+    --dark-grey: #d5d9d980;
+
+    --bg-color: #080705;
+    --bg-dark: #f6f6f6;
+  }
+}
