@@ -10,6 +10,9 @@
   --light-grey: #d5d9d980;/*#E7E9EB;*/
   --dark-grey: 	#151515;
 
+  --card-color: #ECEFF1;
+  --card-color-dark: #323031;
+
   --bg-color: #f6f6f6;
   --bg-dark: #080705;
 }
@@ -25,6 +28,9 @@
     --black: #ffffff;
     --light-grey: #151515;/*#E7E9EB;*/
     --dark-grey: #d5d9d980;
+
+    --card-color: #323031;
+    --card-color-dark: #ECEFF1;
 
     --bg-color: #080705;
     --bg-dark: #f6f6f6;
