@@ -19,6 +19,7 @@ html {
 /* Add a gray background color with some padding */
 body {
   background: var(--bg-color);
+  color: var(--black);
   max-width: 3000px;
 }
 
@@ -62,7 +63,7 @@ body {
 
 
 .card{
-	background-color: #ECEFF1;
+	background-color: var(--card-color);
 	border-radius: 5px;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	
