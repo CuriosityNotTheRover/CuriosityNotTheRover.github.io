@@ -13,8 +13,16 @@ document.getElementById("coming").innerHTML = textLinkComing;
 */
 
 const sections = ['Blog', 'Learning Journal', 'Antilibrary', 'About Me'];
+const sectionsLinks = [ "http://www.curiositynottherover.com",
+                        "http://www.curiositynottherover.com/learningJournal.html",
+                        "http://www.curiositynottherover.com/antilibrary.html",
+                        "http://www.curiositynottherover.com/about.html"]
 var text = '';
+var temp;
+var result
 for (let i = 0; i < sections.length; i++) {
-    text += sections[i] + '<br>';
+    temp = sections[i];
+    result = text.link(sectionsLink[i]);
+    text += result;
 }
 document.getElementById("nav").innerHTML = text;
