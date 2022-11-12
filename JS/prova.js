@@ -13,7 +13,8 @@ document.getElementById("coming").innerHTML = textLinkComing;
 */
 
 const sections = ['Blog', 'Learning Journal', 'Antilibrary', 'About Me'];
-for (let i = 0, len = sections.length, text = ''; i < len; i++) {
+var text = '';
+for (let i = 0; i < sections.length; i++) {
     text += sections[i] + '<br>';
 }
 document.getElementById("nav").innerHTML = text;
