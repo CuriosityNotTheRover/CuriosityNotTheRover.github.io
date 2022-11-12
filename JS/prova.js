@@ -16,4 +16,4 @@ const sections = ['Blog', 'Learning Journal', 'Antilibrary', 'About Me'];
 for (let i = 0, len = sections.length, text = ''; i < len; i++) {
     text += sections[i] + '<br>';
 }
-document.getElementById("navbar").innerHTML = text;
+document.getElementById("nav").innerHTML = text;
