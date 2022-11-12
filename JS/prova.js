@@ -12,11 +12,12 @@ var textLinkComing = "Coming Next";
 document.getElementById("coming").innerHTML = textLinkComing;
 */
 
-const sections = ['Blog', 'Learning Journal', 'Antilibrary', 'About Me'];
+const sections = ['Blog', 'Learning Journal', 'Antilibrary', 'About Me', 'prova'];
 const sectionsLinks = [ "http://www.curiositynottherover.com",
                         "http://www.curiositynottherover.com/learningJournal.html",
                         "http://www.curiositynottherover.com/antilibrary.html",
-                        "http://www.curiositynottherover.com/about.html"]
+                        "http://www.curiositynottherover.com/about.html",
+                        "#"]
 var text = '';
 var temp;
 var result
