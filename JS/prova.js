@@ -22,7 +22,7 @@ var temp;
 var result
 for (let i = 0; i < sections.length; i++) {
     temp = sections[i];
-    result = text.link(sectionsLink[i]);
+    result = text.link(sectionsLinks[i]);
     text += result;
 }
 document.getElementById("nav").innerHTML = text;
