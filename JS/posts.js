@@ -27,7 +27,7 @@ const linkToPosts = [
                 'howWritingHelpsMeThink.html'
 ];
 
-// Constructing the car"ds
+// Constructing the cards
 var text = '';
 var j = 0
 for (j = 0; j < postToP.length; j++) {
@@ -39,7 +39,5 @@ for (j = 0; j < post.length; j++) {
     text += 
     '<div class="card"><h4><b>' + post[j] + '</b></h4><p>' +
     postTeasers[j] + "<br>" + '</p><a class="CTA" href=' + website + "/" + postDirectory + "/" + linkToPosts[j] + '>Read</a></div>'
-            "<a href=" +  + ">" + "read" + "</a> " +
-            "<br><br><br>"
 }
 document.getElementById("postscards").innerHTML = text;
