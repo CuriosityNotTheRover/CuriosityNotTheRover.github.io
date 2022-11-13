@@ -33,11 +33,6 @@ var i = 0
 for (i = 0; i < postToP.length; i++) {
     text += 
     '<div class="card"><h4><b>' + postToP[i] + '</b></h4><p>' +
-      A technique to implement the paradigm of "Preparing in Advance"
-    </p>
-    <p></p>
-		<a id="coming" class="CTA" href="#"></a>
-  </div>
     "titolo: " + postToP[i] + "<br>"
 }
 for (i = 0; i < post.length; i++) {
