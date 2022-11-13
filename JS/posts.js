@@ -1,17 +1,3 @@
-/*
-var text = "Prova Read";
-var result = text.link("https://www.w3schools.com");
-document.getElementById("readButton").innerHTML = result;
-*/
-
-/*
-var textLinkRead = "Read";
-document.getElementById("read").innerHTML = textLinkRead;
-
-var textLinkComing = "Coming Next";
-document.getElementById("coming").innerHTML = textLinkComing;
-*/
-
 
 const website = "http://www.curiositynottherover.com" //Hosting website
 const postDirectory = "Posts" // Directory of Posts
