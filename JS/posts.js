@@ -51,6 +51,7 @@ for (i = 0; i < postToP.length; i++) {
 for (i = 0; i < post.length; i++) {
     text += "titolo: " + post[i] + "<br>" +
             postTeasers[i] + "<br>" + 
-            "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[i] + ">" + "read" + "</a> "
+            "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[i] + ">" + "read" + "</a> " +
+            "<br><br>"
 }
 document.getElementById("nav").innerHTML = text;
