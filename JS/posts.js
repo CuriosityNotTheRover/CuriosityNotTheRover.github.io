@@ -29,16 +29,16 @@ const linkToPosts = [
 
 // Constructing the car"ds
 var text = '';
-var i = 0
-for (i = 0; i < postToP.length; i++) {
+var j = 0
+for (j = 0; j < postToP.length; j++) {
     text += 
     //'<div class="card"><h4><b>' + postToP[i] + '</b></h4><p>' +
-    "titolo: " + postToP[i] + "<br>"
+    "titolo: " + postToP[j] + "<br>"
 }
-for (i = 0; i < post.length; i++) {
-    text += "titolo: " + post[i] + "<br>" +
-            postTeasers[i] + "<br>" + 
-            "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[i] + ">" + "read" + "</a> " +
+for (j = 0; j < post.length; j++) {
+    text += "titolo: " + post[j] + "<br>" +
+            postTeasers[j] + "<br>" + 
+            "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[j] + ">" + "read" + "</a> " +
             "<br><br><br>"
 }
 document.getElementById("postscards").innerHTML = text;
