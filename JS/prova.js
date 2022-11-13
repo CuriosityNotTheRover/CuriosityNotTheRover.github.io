@@ -23,14 +23,21 @@ const sectionsLinks = [ "http://www.curiositynottherover.com",
 
 // Constructing the Navbar
 var text = '';
-var temp;
-var result
 let i = 0
 for (i = 0; i < sections.length; i++) {
-    temp = sections[i];
-    result = temp.link(sectionsLinks[i]);
-    text += result;
+    text += "<a href=" + sectionsLinks[i] + ">" + sections[i] + "</a>"
 }
 document.getElementById("nav").innerHTML = text;
+
+
+// Post to Publish
+const postToP = [   'Milestoning',
+                    'Prepare in Advance'
+];
+// Post Published
+const post = [  'Blog', 'Learning Journal', 'Antilibrary',
+                'How Writing Helps Me Think'];
+
+
 
 /*var data = $.csv.toObjects(csv)*/
