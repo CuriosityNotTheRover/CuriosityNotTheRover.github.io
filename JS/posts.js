@@ -41,3 +41,16 @@ const linkToPosts = [
                 'passionFromJonyIve.html',
                 'howWritingHelpsMeThink.html'
 ];
+
+// Constructing the car"ds
+var text = '';
+let i = 0
+for (i = 0; i < postToP.length; i++) {
+    text += "titolo: " + postToP[i] + "<br>"
+}
+for (i = 0; i < post.length; i++) {
+    text += "titolo: " + post[i] + "<br>" +
+            postTeasers[i] + "<br>" + 
+            "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[i] + ">" + "read" + "</a> "
+}
+document.getElementById("nav").innerHTML = text;
