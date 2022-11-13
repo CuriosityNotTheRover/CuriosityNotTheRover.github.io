@@ -34,7 +34,7 @@ const postTeasers = [
                 'Jony Ive does quite a few interesting things to express his passion, I analyze the ones I find most interesting',
                 'writing down ideas helps me with the thinking process'
 ];
-// Link of each post
+// Link of each post.
 const linkToPosts = [
                 'antilibraryArticle.html',
                 'whichAreMyCoreValues.html',
