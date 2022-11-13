@@ -1,4 +1,4 @@
-const website = "http://www.curiositynottherover.com" //Hosting website
+//const website = "http://www.curiositynottherover.com" //Hosting website
 const postDirectory = "Posts" // Directory of Posts
 
 
