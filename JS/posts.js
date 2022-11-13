@@ -32,7 +32,7 @@ var text = '';
 var i = 0
 for (i = 0; i < postToP.length; i++) {
     text += 
-    '<div class="card"><h4><b>' + postToP[i] + '</b></h4><p>' +
+    //'<div class="card"><h4><b>' + postToP[i] + '</b></h4><p>' +
     "titolo: " + postToP[i] + "<br>"
 }
 for (i = 0; i < post.length; i++) {
