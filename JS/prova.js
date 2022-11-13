@@ -27,3 +27,5 @@ for (let i = 0; i < sections.length; i++) {
     text += result;
 }
 document.getElementById("nav").innerHTML = text;
+
+/*var data = $.csv.toObjects(csv)*/
