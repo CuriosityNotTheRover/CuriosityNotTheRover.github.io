@@ -39,4 +39,4 @@ for (i = 0; i < post.length; i++) {
             "<a href=" + website + "/" + postDirectory + "/" + linkToPosts[i] + ">" + "read" + "</a> " +
             "<br><br>"
 }
-document.getElementById("nav").innerHTML = text;
+document.getElementById("postscards").innerHTML = text;
