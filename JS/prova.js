@@ -28,7 +28,7 @@ const sectionsLinks = [ "",
 var text = '';
 let i = 0
 for (i = 0; i < sections.length; i++) {
-    text += "<a href=" + website + "/" + sectionsLinks[i] + ">" + sections[i] + "</a>"
+    text += "<a href=" + website + "/" + sectionsLinks[i] + ">" + sections[i] + "</a> "
 }
 document.getElementById("nav").innerHTML = text;
 
