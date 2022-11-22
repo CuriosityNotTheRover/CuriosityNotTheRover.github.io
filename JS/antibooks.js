@@ -15,7 +15,7 @@ const images = [
                 'writing down ideas helps me with the thinking process'
 ];
 
-// Constructing the cards with the books
+// Constructing the cards with the books.
 var text = '';
 var j = 0
 var i = 0
