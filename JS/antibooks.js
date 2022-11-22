@@ -22,7 +22,8 @@ var i = 0
 for (j = 0; j < books.length; j++) {
     text += '<div class="card"><h4><b>' + books[j] + '</b></h4><p>'
     for (i = 0; i < books[j].length; i++) {
-        text += books[j][i] + '</p></div>'
+        text += books[j][i] + ', '
     }
+    text += '</p></div>'
 }
 document.getElementById("books").innerHTML = text;
