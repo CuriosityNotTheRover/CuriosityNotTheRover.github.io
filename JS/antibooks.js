@@ -20,9 +20,9 @@ var text = '';
 var j = 0
 var i = 0
 for (j = 0; j < books.length; j++) {
-    text += '<div class="card"><h4><b>' + books[j] + '</b></h4><p>'
+    text += '<div class="card"><h4><b>' + books[j][0] + '</b></h4><p>'
     for (i = 0; i < books[j].length; i++) {
-        text += books[j][i] + ', '
+        text += books[j][1][i] + ', '
     }
     text += '</p></div>'
 }
