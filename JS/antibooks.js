@@ -15,13 +15,13 @@ const images = [
                 'writing down ideas helps me with the thinking process'
 ];
 
-// Constructing the cards with the books.
+// Constructing the cards with the books
 var text = '';
 var j = 0
 var i = 0
 for (j = 0; j < books.length; j++) {
     text += '<div class="card"><h4><b>' + books[j][0] + '</b></h4><p>'
-    for (i = 0; i < books[j].length; i++) {
+    for (i = 0; i < books[j][1].length; i++) {
         text += books[j][1][i] + ', '
     }
     text += '</p></div>'
