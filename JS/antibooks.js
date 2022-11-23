@@ -1,4 +1,5 @@
-//var website = "http://www.curiositynottherover.com" //Hosting website
+var website = "http://www.curiositynottherover.com" //Hosting website
+const coverDirectory = "img/BooksCovers/" // Directory of Posts
 
 
 // Post Published [title, [author/s]]
@@ -9,10 +10,10 @@ const books = [ ['The Black Swan', ['Nassim Nicholas Taleb']],
 ];
 // Array containing the images   TO UPDATE
 const images = [
-                'Having an antilibrary is a daily reminder that you still have to learn, you’re not finished and you have not learned everything',
-                'The first question was: “Which are my core values?”. I feel like I have some values but it is curious to see how you are perceived from the outside',
-                'Jony Ive does quite a few interesting things to express his passion, I analyze the ones I find most interesting',
-                'writing down ideas helps me with the thinking process'
+                'TheBlackSwan-NassimNicholasTaleb.jpg',
+                'TheBlackSwan-NassimNicholasTaleb.jpg',
+                'TheBlackSwan-NassimNicholasTaleb.jpg',
+                'TheBlackSwan-NassimNicholasTaleb.jpg'
 ];
 
 // Constructing the cards with the books.
@@ -24,6 +25,6 @@ for (j = 0; j < books.length; j++) {
     for (i = 0; i < books[j][1].length; i++) {
         text += books[j][1][i] + ', '
     }
-    text += '</p></div>'
+    text += '</p><br><img src=' + website + "/" + coverDirectory + images[j] + 'width="100px">' + '</div>'
 }
 document.getElementById("books").innerHTML = text;
