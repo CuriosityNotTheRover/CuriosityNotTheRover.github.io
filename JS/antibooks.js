@@ -3,17 +3,21 @@ const coverDirectory = "img/BooksCovers/" // Directory of Posts
 
 
 // Post Published [title, [author/s]]
-const books = [ ['The Black Swan', ['Nassim Nicholas Taleb']],
+const books = [ ['The Book of Why', ['Judea Pearl']],
+                ['The Black Swan', ['Nassim Nicholas Taleb']],
                 ['Overcomplicated', ['Samuel Arbesman']],
                 ['All Art is Propaganda', ['George Orwell']],
-                ['The Tools of Argument', ['Joel P. Trachtman']]
+                ['The Tools of Argument', ['Joel P. Trachtman']],
+                ['Godel, Escher, Bach: An Eternal Golden Braid', ['Douglas Hofstadter']]
 ];
 // Array containing the images   TO UPDATE
 const images = [
+                'TheBookOfWhy-JudeaPearl.png',
                 'TheBlackSwan-NassimNicholasTaleb.jpg',
                 'Overcomplicated-SamuelArbesman.png',
                 'AllArtIsPropaganda-GeorgeOrwell.jpg',
-                'TheToolsOfArgument-JoelTrachtman.png'
+                'TheToolsOfArgument-JoelTrachtman.png',
+                'GEB-DouglasRHofstadter.jpg'
 ];
 
 /*
