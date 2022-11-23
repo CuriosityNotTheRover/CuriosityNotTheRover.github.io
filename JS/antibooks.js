@@ -11,9 +11,9 @@ const books = [ ['The Black Swan', ['Nassim Nicholas Taleb']],
 // Array containing the images   TO UPDATE
 const images = [
                 'TheBlackSwan-NassimNicholasTaleb.jpg',
-                'TheBlackSwan-NassimNicholasTaleb.jpg',
-                'TheBlackSwan-NassimNicholasTaleb.jpg',
-                'TheBlackSwan-NassimNicholasTaleb.jpg'
+                'Overcomplicated-SamuelArbesman.png',
+                'AllArtIsPropaganda-GeorgeOrwell.jpg',
+                'TheToolsOfArgument-JoelTrachtman.png'
 ];
 
 // Constructing the cards with the books.
