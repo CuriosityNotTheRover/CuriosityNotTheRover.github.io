@@ -25,6 +25,6 @@ for (j = 0; j < books.length; j++) {
     for (i = 0; i < books[j][1].length; i++) {
         text += books[j][1][i] + ', '
     }
-    text += '</p><br><img src=' + website + "/" + coverDirectory + images[j] + '" width="100px">' + '</div>'
+    text += '</p><br><img src=' + website + "/" + coverDirectory + images[j] + ' width="100px">' + '</div>'
 }
 document.getElementById("books").innerHTML = text;
