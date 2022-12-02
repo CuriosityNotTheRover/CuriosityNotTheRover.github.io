@@ -38,6 +38,6 @@ for (j = 0; j < postToP.length; j++) {
 for (j = 0; j < post.length; j++) {
     text += 
     '<div class="card"><h4><b>' + post[j] + '</b></h4><p>' +
-    postTeasers[j] + "<br>" + '</p><a class="CTA" href=' + website + "/" + postDirectory + "/" + linkToPosts[j] + '>Read</a></div>'
+    postTeasers[j] + "<br>" + '</p><a class="CTA" href=' + website + "/" + postDirectory + "/" + linkToPosts[j] + '> read <i class="bi bi-chevron-right"></i></a></div>'
 }
 document.getElementById("postscards").innerHTML = text;
