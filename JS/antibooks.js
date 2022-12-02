@@ -42,7 +42,10 @@ for (j = 0; j < books.length; j++) {
         '<div class="content"><p class="booktitle"><h4><b>' + books[j][0] + '</b></h4><p>' +
         '<p class="bookauthor">'
     for (i = 0; i < books[j][1].length; i++) {
-        text += books[j][1][i] + ', '
+        text += books[j][1][i]
+        if(i < books[j][1].length - 1){
+            text += ', '
+        }
     }
     text += '</p></div></div>'
 }

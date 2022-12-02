@@ -66,7 +66,7 @@ body {
 
 .card{
 	background-color: var(--card-color);
-	border-radius: 5px;
+	border-radius: 10px;
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 	
   	grid-column-start: 3;
@@ -75,6 +75,7 @@ body {
 	padding: 40px;
   	margin-bottom: 60px;
 }
+
 
 h4 {
   margin-top: 0;
@@ -87,7 +88,7 @@ h4 {
 
 .CTA{
 	font-size: calc(8px + 1vh);
-	font-weight: 700;
+	font-weight: 500;
 	text-decoration: none;
 	color: var(--white);
 	background-color: var(--dark-brown);
@@ -102,10 +103,14 @@ h4 {
 	transition-duration: var(--mediumT);
 }
 
-/*a {
-  color: var(--dark-brown);
-  text-decoration: underline;
-}*/
+.read-link {
+	color: var(--dark-brown);
+	text-decoration: none;
+}
+
+.read-link:hover {
+	text-decoration: underline;
+}
 
 /* Footer */
 .footer {
@@ -119,19 +124,20 @@ h4 {
 .books{
 	font-family: 'Inter';
 
+	border-radius: 10px;
 	min-width: 100px;
 	max-width: 500px;
 	height: min-content;
 	
 	display: flex;
 	
-	background-color: var(--card-color);
-	border-radius: 5px;
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-	
 	margin-bottom: 60px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.books:hover{
+	background-color: var(--card-color);
 }
 
 .books .bookCover {
