@@ -33,7 +33,7 @@ var j = 0
 for (j = 0; j < postToP.length; j++) {
     text += 
     '<div class="card"><h4><b>' + postToP[j] + '</b></h4><p>' +
-    '</p><a class="CTA" href="#">Coming Next</a></div> '
+    '</p><a class="read-link" href="#"> Coming Next</a></div> '
 }
 for (j = 0; j < post.length; j++) {
     text += 

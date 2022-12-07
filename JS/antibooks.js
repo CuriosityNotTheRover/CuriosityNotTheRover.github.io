@@ -1,4 +1,4 @@
-var website = "http://www.curiositynottherover.com" //Hosting website
+var websiteAnti = "http://www.curiositynottherover.com" //Hosting website
 const coverDirectory = "img/BooksCovers/" // Directory of Posts
 
 
@@ -34,16 +34,16 @@ const images = [
 
 // Constructing the cards with the books.
 var text = '';
-var j = 0
-var i = 0
-for (j = 0; j < books.length; j++) {
+var jAnti = 0
+var iAnti = 0
+for (jAnti = 0; jAnti < books.length; jAnti++) {
     text += '<div class="books"><div class="bookCover">' + 
-        '<img class="cover" src="' +  website + "/" + coverDirectory + images[j] + '"></div>' +
-        '<div class="content"><p class="booktitle"><h4><b>' + books[j][0] + '</b></h4><p>' +
+        '<img class="cover" src="' +  websiteAnti + "/" + coverDirectory + images[jAnti] + '"></div>' +
+        '<div class="content"><p class="booktitle"><h4><b>' + books[jAnti][0] + '</b></h4><p>' +
         '<p class="bookauthor">'
-    for (i = 0; i < books[j][1].length; i++) {
-        text += books[j][1][i]
-        if(i < books[j][1].length - 1){
+    for (iAnti = 0; i < books[jAnti][1].length; iAnti++) {
+        text += books[jAnti][1][iAnti]
+        if(iAnti < books[jAnti][1].length - 1){
             text += ', '
         }
     }

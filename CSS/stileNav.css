@@ -21,7 +21,8 @@
 
 .navbar a {
   color: var(--dark-brown);
-  text-decoration: underline;
+  text-decoration: none; /*Do I want to make the section underlined?*/
+  font-weight: 700;
 }
 
 
