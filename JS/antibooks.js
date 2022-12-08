@@ -41,7 +41,7 @@ for (jAnti = 0; jAnti < books.length; jAnti++) {
         '<img class="cover" src="' +  websiteAnti + "/" + coverDirectory + images[jAnti] + '"></div>' +
         '<div class="content"><p class="booktitle"><h4><b>' + books[jAnti][0] + '</b></h4><p>' +
         '<p class="bookauthor">'
-    for (iAnti = 0; i < books[jAnti][1].length; iAnti++) {
+    for (iAnti = 0; iAnti < books[jAnti][1].length; iAnti++) {
         text += books[jAnti][1][iAnti]
         if(iAnti < books[jAnti][1].length - 1){
             text += ', '
