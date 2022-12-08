@@ -2,10 +2,13 @@
 const postDirectory = "Posts" // Directory of Posts
 
 
-// Post to Publish
-const postToP = [   'Milestoning',
-                    'Prepare in Advance'
+// Post to Publish 'Milestoning', 'Prepare in Advance'
+const postToP = [   'A Brief Note on Curiosity'
 ];
+// Date when I will pubblish them
+const datesToP = [   'December 10'
+];
+
 // Post Published
 const post = [  'An Antilibrary',
                 'Which Are My Core Values?',
@@ -33,7 +36,7 @@ var j = 0
 for (j = 0; j < postToP.length; j++) {
     text += 
     '<div class="card"><h4><b>' + postToP[j] + '</b></h4><p>' +
-    '</p><a class="read-link" href="#"> Coming Next</a></div> '
+    '</p><a class="read-link"> Coming ' + datesToP + '</a></div> '
 }
 for (j = 0; j < post.length; j++) {
     text += 
