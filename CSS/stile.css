@@ -40,12 +40,19 @@ body {
 
 .robotLeft{
 	height: 3ex;
-	/*fill: red;*/
+	filter: invert(15%) sepia(16%) saturate(1627%) hue-rotate(46deg) brightness(100%) contrast(88%);
 }
+@media (prefers-color-scheme: dark){
+	.robotLeft{
+		filter: invert(36%) sepia(52%) saturate(371%) hue-rotate(33deg) brightness(95%) contrast(87%);	
+	}
+  }
 
+  /*
 .robotDown{
 	display: none;
 }
+*/
 
 .title{
 	display: flex;
@@ -161,6 +168,7 @@ h4 {
 		grid-column-start: 1;
   		grid-column-end: 7;
 	}
+	/*
 	.robotLeft{
 		display: none;
 	}
@@ -169,5 +177,6 @@ h4 {
 		display: block;
 		height: 2ex;
 	}
+	*/
   
 }
