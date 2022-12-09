@@ -3,20 +3,22 @@ const postDirectory = "Posts" // Directory of Posts
 
 
 // Post to Publish 'Milestoning', 'Prepare in Advance'
-const postToP = [   'A Brief Note on Curiosity'
+const postToP = [   
 ];
 // Date when I will pubblish them
-const datesToP = [   'December 10'
+const datesToP = [   
 ];
 
 // Post Published
-const post = [  'An Antilibrary',
+const post = [  'A Brief Note on Curiosity',
+                'An Antilibrary',
                 'Which Are My Core Values?',
                 'Passion From Jony Ive',
                 'How Writing Helps Me Think'
 ];
 // Array of Posts Teaser
 const postTeasers = [
+                'Some of my notes on the desire of learning',
                 'Having an antilibrary is a daily reminder that you still have to learn, you’re not finished and you have not learned everything',
                 'The first question was: “Which are my core values?”. I feel like I have some values but it is curious to see how you are perceived from the outside',
                 'Jony Ive does quite a few interesting things to express his passion, I analyze the ones I find most interesting',
@@ -24,6 +26,7 @@ const postTeasers = [
 ];
 // Link of each post.
 const linkToPosts = [
+                'briefNoteOnCuriosity.html',
                 'antilibraryArticle.html',
                 'whichAreMyCoreValues.html',
                 'passionFromJonyIve.html',

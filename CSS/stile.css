@@ -161,6 +161,17 @@ h4 {
 	padding: 5%;
 }
 
+.description {
+	max-width: 500px;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-left: 5px;
+	padding-right: 5px;
+
+}
+
 
 /* Responsive layout */
 @media screen and (max-width: 600px) {
@@ -169,14 +180,15 @@ h4 {
   		grid-column-end: 7;
 	}
 	.title{
+		text-align: center;
 		grid-column-start: 1;
 		grid-column-end: 7;
 	}
-	/*
+	
 	.robotLeft{
 		display: none;
 	}
-	
+	/*
 	.robotDown{
 		display: block;
 		height: 2ex;
