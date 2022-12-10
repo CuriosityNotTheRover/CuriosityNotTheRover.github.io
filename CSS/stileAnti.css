@@ -15,7 +15,9 @@ html {
 body {
 	font-family: 'Inter';
 	margin: 0px;
+}
 
+.antibody {
 	height: 100vh;
 	width: 100vw;
 	background-color: var(--light-grey);
@@ -25,16 +27,40 @@ body {
 
 #image-track > .cover {
 	width: 40vmin;
-	height: 56vim;
+	height: 56vmin;
 	object-fit: cover;
 	object-position: center;
 }
+
+#image-mobile > .cover {
+	width: 40vmin;
+	height: 56vmin;
+}
+
+/*
+#image-track > .cover:hover {
+	width: 60vmin;
+	height: 84vmin;
+	object-fit: cover;
+	object-position: center;
+}
+*/
 
 #image-track {
 	display: flex;
 	gap: 4vmin;
 	position: absolute;
 
+	left: 50%;
+	top: 50%;
+	transform: translate(0%, -50%);
+}
+
+#image-mobile {
+	display: none;
+	background-color: red;
+	gap: 4vmin;
+	position: absolute;
 
 	left: 50%;
 	top: 50%;
@@ -43,8 +69,12 @@ body {
 
 /* Responsive layout */
 @media screen and (max-width: 600px) {
-	body{
-		width: 100%;
-  		height: 100%;
+	#image-track {
+		display: none;
+		}
+	#image-mobile {
+		display: flex;
+		overflow-x: scroll;
 	}
+	
 }
