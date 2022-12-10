@@ -161,6 +161,11 @@ h4 {
 	padding: 5%;
 }
 
+.image {
+	max-width: 500px;
+	width: 100%;
+}
+
 .description {
 	max-width: 500px;
 	
