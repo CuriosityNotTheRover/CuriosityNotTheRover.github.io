@@ -33,8 +33,8 @@ body {
 }
 
 #image-mobile > .cover {
-	width: 40vmin;
-	height: 56vmin;
+	width: 50vmin;
+	height: 70vmin;
 }
 
 /*
@@ -58,7 +58,6 @@ body {
 
 #image-mobile {
 	display: none;
-	background-color: red;
 	gap: 4vmin;
 	position: absolute;
 
